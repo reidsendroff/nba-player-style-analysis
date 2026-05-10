@@ -6,20 +6,19 @@ This project requires two datasets that are **not included in the repository**. 
 
 ### 1. NBA Player Statistics (`nba_statistics.txt`)
 
-**Status:** ⚠️ NOT INCLUDED - Must be obtained separately
+**Status:** ✅ INCLUDED
 
 **Format:** Tab-delimited text file (`.txt`)
 
-**Expected Location:** `data/nba_statistics.txt`
+**Location:** `data/nba_statistics.txt`
 
-**Where to Obtain:**
-- This file appears to be from a specific NBA season (likely 2023-24 based on player names)
-- Possible sources:
-  - Basketball-Reference.com (export as CSV/text, convert to tab-delimited)
-  - NBA.com official statistics portal
-  - Course materials from Harvard Extension CSCI E-82
-  
-**Alternative:** You can recreate a similar dataset by scraping current NBA statistics from Basketball-Reference or the official NBA stats API.
+**Source:** CSCI E-82 homework materials
+
+**Details:**
+- **Season**: 2023-24 NBA regular season
+- **Rows**: 563 (including header)
+- **Players**: 562
+- **Features**: 21 columns
 
 **Expected Format:**
 ```
